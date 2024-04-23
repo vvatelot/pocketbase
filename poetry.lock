@@ -108,13 +108,13 @@ trio = ["trio (>=0.22.0,<0.26.0)"]
 
 [[package]]
 name = "httpx"
-version = "0.27.0"
+version = "0.25.2"
 description = "The next generation HTTP client."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "httpx-0.27.0-py3-none-any.whl", hash = "sha256:71d5465162c13681bff01ad59b2cc68dd838ea1f10e51574bac27103f00c91a5"},
-    {file = "httpx-0.27.0.tar.gz", hash = "sha256:a0cb88a46f32dc874e04ee956e4c2764aba2aa228f650b06788ba6bda2962ab5"},
+    {file = "httpx-0.25.2-py3-none-any.whl", hash = "sha256:a05d3d052d9b2dfce0e3896636467f8a5342fb2b902c819428e1ac65413ca118"},
+    {file = "httpx-0.25.2.tar.gz", hash = "sha256:8b8fcaa0c8ea7b05edd69a094e63a2094c4efcb48129fb757361bc423c0ad9e8"},
 ]
 
 [package.dependencies]
@@ -176,13 +176,13 @@ files = [
 
 [[package]]
 name = "pluggy"
-version = "1.2.0"
+version = "1.5.0"
 description = "plugin and hook calling mechanisms for python"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "pluggy-1.2.0-py3-none-any.whl", hash = "sha256:c2fd55a7d7a3863cba1a013e4e2414658b1d07b6bc57b3919e0c63c9abb99849"},
-    {file = "pluggy-1.2.0.tar.gz", hash = "sha256:d12f0c4b579b15f5e054301bb226ee85eeeba08ffec228092f8defbaa3a4c4b3"},
+    {file = "pluggy-1.5.0-py3-none-any.whl", hash = "sha256:44e1ad92c8ca002de6377e165f3e0f1be63266ab4d554740532335b9d75ea669"},
+    {file = "pluggy-1.5.0.tar.gz", hash = "sha256:2cffa88e94fdc978c4c574f15f9e59b7f4201d439195c3715ca9e2486f1d0cf1"},
 ]
 
 [package.extras]
@@ -234,24 +234,6 @@ tomli = {version = ">=1.0.0", markers = "python_version < \"3.11\""}
 testing = ["argcomplete", "attrs (>=19.2.0)", "hypothesis (>=3.56)", "mock", "nose", "pygments (>=2.7.2)", "requests", "setuptools", "xmlschema"]
 
 [[package]]
-name = "pytest-httpx"
-version = "0.30.0"
-description = "Send responses to httpx."
-optional = false
-python-versions = ">=3.9"
-files = [
-    {file = "pytest-httpx-0.30.0.tar.gz", hash = "sha256:755b8edca87c974dd4f3605c374fda11db84631de3d163b99c0df5807023a19a"},
-    {file = "pytest_httpx-0.30.0-py3-none-any.whl", hash = "sha256:6d47849691faf11d2532565d0c8e0e02b9f4ee730da31687feae315581d7520c"},
-]
-
-[package.dependencies]
-httpx = "==0.27.*"
-pytest = ">=7,<9"
-
-[package.extras]
-testing = ["pytest-asyncio (==0.23.*)", "pytest-cov (==4.*)"]
-
-[[package]]
 name = "ruff"
 version = "0.3.7"
 description = "An extremely fast Python linter and code formatter, written in Rust."
@@ -301,16 +283,16 @@ files = [
 
 [[package]]
 name = "typing-extensions"
-version = "4.7.1"
-description = "Backported and Experimental Type Hints for Python 3.7+"
+version = "4.11.0"
+description = "Backported and Experimental Type Hints for Python 3.8+"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "typing_extensions-4.7.1-py3-none-any.whl", hash = "sha256:440d5dd3af93b060174bf433bccd69b0babc3b15b1a8dca43789fd7f61514b36"},
-    {file = "typing_extensions-4.7.1.tar.gz", hash = "sha256:b75ddc264f0ba5615db7ba217daeb99701ad295353c45f9e95963337ceeeffb2"},
+    {file = "typing_extensions-4.11.0-py3-none-any.whl", hash = "sha256:c1f94d72897edaf4ce775bb7558d5b79d8126906a14ea5ed1635921406c0387a"},
+    {file = "typing_extensions-4.11.0.tar.gz", hash = "sha256:83f085bd5ca59c80295fc2a82ab5dac679cbe02b9f33f7d83af68e241bea51b0"},
 ]
 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "d640f8298a12d5250cf1ff891c118476de9c9d404b1c448014fb61febf99f097"
+content-hash = "f961b93d27b05b4392946a6c478cbe03de189d718e5d55a94d631335308255ea"
